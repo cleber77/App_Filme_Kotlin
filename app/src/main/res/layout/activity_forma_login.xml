@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".View.FormaLogin"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App de Filmes"
+        android:textStyle="bold"
+        android:textColor="@color/read"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="15dp"
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintTextColor="@color/white"
+        android:textColorHint="@color/white"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/orange"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:textStyle="bold"
+            android:padding="25dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/ligth_gray"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:hintTextColor="@color/white"
+        android:textColorHint="@color/white"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:helperTextTextColor="@color/orange"
+        style="@style/ThemeOverlay.Material3.TextInputEditText.FilledBox"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Senha"
+            android:backgroundTint="@color/ligth_gray"
+            android:inputType="numberPassword"
+            android:textStyle="bold"
+            android:padding="25dp"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/editbutaoEntre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entra "
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:backgroundTint="@color/black"
+        app:strokeWidth ="2dp"
+        app:strokeColor = "@color/white"
+        android:layout_marginTop="20dp"
+        />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Precisa de ajuda"
+         android:layout_margin="20dp"
+         android:textSize="18dp"
+         android:textColor="@color/white"
+         android:layout_gravity="center"
+         android:textStyle="bold"
+         />
+
+    <TextView
+        android:id="@+id/editIncreva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increva-se agorar"
+        android:layout_margin="20dp"
+        android:textSize="21dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
+    </ScrollView>
+
+

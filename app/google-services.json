@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "423271609350",
+    "project_id": "aplicatavo-de-filme",
+    "storage_bucket": "aplicatavo-de-filme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423271609350:android:11ce78fadfe7d7ebfcbf87",
+        "android_client_info": {
+          "package_name": "com.Cleber.appfilme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDow4Pmgj4SbxPpt5VplL7yAkB7ObdbzE0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
